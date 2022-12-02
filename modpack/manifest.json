@@ -1,0 +1,436 @@
+{
+  "minecraft": {
+    "version": "1.18.2",
+    "modLoaders": [
+      {
+        "id": "forge-40.1.0",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "overrides": "overrides",
+  "manifestVersion": 1,
+  "version": "1.0.0",
+  "author": "AwesomeKalin55",
+  "name": "BambooCraft",
+  "files": [
+    {
+      "projectID": 32274,
+      "fileID": 4097952,
+      "required": true,
+      "__meta": {
+        "name": "JourneyMap"
+      }
+    },
+    {
+      "projectID": 60089,
+      "fileID": 3578801,
+      "required": true,
+      "__meta": {
+        "name": "Mouse Tweaks"
+      }
+    },
+    {
+      "projectID": 228525,
+      "fileID": 4064971,
+      "required": true,
+      "__meta": {
+        "name": "Bookshelf",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 232131,
+      "fileID": 3830896,
+      "required": true,
+      "__meta": {
+        "name": "Default Options",
+        "dependencies": [
+          531761
+        ]
+      }
+    },
+    {
+      "projectID": 238222,
+      "fileID": 4062344,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Items (JEI)"
+      }
+    },
+    {
+      "projectID": 238747,
+      "fileID": 3574005,
+      "required": true,
+      "__meta": {
+        "name": "Mod Name Tooltip"
+      }
+    },
+    {
+      "projectID": 240630,
+      "fileID": 3831559,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Resources (JER)",
+        "dependencies": [
+          238222,
+          238222
+        ]
+      }
+    },
+    {
+      "projectID": 241895,
+      "fileID": 3830926,
+      "required": true,
+      "__meta": {
+        "name": "KleeSlabs",
+        "dependencies": [
+          531761
+        ]
+      }
+    },
+    {
+      "projectID": 242818,
+      "fileID": 4009409,
+      "required": true,
+      "__meta": {
+        "name": "CodeChicken Lib 1.8.+",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 243121,
+      "fileID": 3840125,
+      "required": true,
+      "__meta": {
+        "name": "Quark",
+        "dependencies": [
+          250363
+        ]
+      }
+    },
+    {
+      "projectID": 245174,
+      "fileID": 3951068,
+      "required": true,
+      "__meta": {
+        "name": "Ender Storage 1.8.+",
+        "dependencies": [
+          242818
+        ]
+      }
+    },
+    {
+      "projectID": 245211,
+      "fileID": 3965688,
+      "required": true,
+      "__meta": {
+        "name": "The One Probe"
+      }
+    },
+    {
+      "projectID": 247560,
+      "fileID": 4036050,
+      "required": true,
+      "__meta": {
+        "name": "Oh The Biomes You'll Go",
+        "dependencies": [
+          563928
+        ]
+      }
+    },
+    {
+      "projectID": 248787,
+      "fileID": 3927564,
+      "required": true,
+      "__meta": {
+        "name": "AppleSkin"
+      }
+    },
+    {
+      "projectID": 250363,
+      "fileID": 3642382,
+      "required": true,
+      "__meta": {
+        "name": "AutoRegLib",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 250398,
+      "fileID": 3950209,
+      "required": true,
+      "__meta": {
+        "name": "Controlling"
+      }
+    },
+    {
+      "projectID": 250419,
+      "fileID": 4102073,
+      "required": true,
+      "__meta": {
+        "name": "Enchantment Descriptions",
+        "dependencies": [
+          228525
+        ]
+      }
+    },
+    {
+      "projectID": 250577,
+      "fileID": 3740180,
+      "required": true,
+      "__meta": {
+        "name": "Akashic Tome",
+        "dependencies": [
+          250363
+        ]
+      }
+    },
+    {
+      "projectID": 252848,
+      "fileID": 3858196,
+      "required": true,
+      "__meta": {
+        "name": "Nature's Compass"
+      }
+    },
+    {
+      "projectID": 256717,
+      "fileID": 3913406,
+      "required": true,
+      "__meta": {
+        "name": "Clumps"
+      }
+    },
+    {
+      "projectID": 272515,
+      "fileID": 3848850,
+      "required": true,
+      "__meta": {
+        "name": "Better Advancements"
+      }
+    },
+    {
+      "projectID": 274259,
+      "fileID": 3674344,
+      "required": true,
+      "__meta": {
+        "name": "Carry On"
+      }
+    },
+    {
+      "projectID": 331723,
+      "fileID": 4096818,
+      "required": true,
+      "__meta": {
+        "name": "Bamboo Everything (Forge/Fabric)",
+        "dependencies": [
+          419699
+        ]
+      }
+    },
+    {
+      "projectID": 351725,
+      "fileID": 4018289,
+      "required": true,
+      "__meta": {
+        "name": "Macaw's Bridges"
+      }
+    },
+    {
+      "projectID": 352039,
+      "fileID": 4028394,
+      "required": true,
+      "__meta": {
+        "name": "Macaw's Roofs"
+      }
+    },
+    {
+      "projectID": 367706,
+      "fileID": 4083368,
+      "required": true,
+      "__meta": {
+        "name": "FancyMenu [Forge]",
+        "dependencies": [
+          410295
+        ]
+      }
+    },
+    {
+      "projectID": 368293,
+      "fileID": 3820310,
+      "required": true,
+      "__meta": {
+        "name": "Repurposed Structures (Forge)",
+        "dependencies": [
+          560323
+        ]
+      }
+    },
+    {
+      "projectID": 377281,
+      "fileID": 3796183,
+      "required": true,
+      "__meta": {
+        "name": "Dark Paintings"
+      }
+    },
+    {
+      "projectID": 378646,
+      "fileID": 3930974,
+      "required": true,
+      "__meta": {
+        "name": "Macaw's Doors"
+      }
+    },
+    {
+      "projectID": 388800,
+      "fileID": 3995029,
+      "required": true,
+      "__meta": {
+        "name": "Polymorph (Forge)"
+      }
+    },
+    {
+      "projectID": 400933,
+      "fileID": 3914241,
+      "required": true,
+      "__meta": {
+        "name": "Macaw's Trapdoors"
+      }
+    },
+    {
+      "projectID": 410295,
+      "fileID": 4031715,
+      "required": true,
+      "__meta": {
+        "name": "Konkrete [Forge]",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 412082,
+      "fileID": 4065749,
+      "required": true,
+      "__meta": {
+        "name": "Supplementaries",
+        "dependencies": [
+          499980
+        ]
+      }
+    },
+    {
+      "projectID": 417645,
+      "fileID": 4095825,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Professions (JEP)",
+        "dependencies": [
+          238222
+        ]
+      }
+    },
+    {
+      "projectID": 419699,
+      "fileID": 4040966,
+      "required": true,
+      "__meta": {
+        "name": "Architectury API (Fabric/Forge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 453925,
+      "fileID": 3913067,
+      "required": true,
+      "__meta": {
+        "name": "Macaw's Fences and Walls"
+      }
+    },
+    {
+      "projectID": 457570,
+      "fileID": 4010624,
+      "required": true,
+      "__meta": {
+        "name": "Configured"
+      }
+    },
+    {
+      "projectID": 499980,
+      "fileID": 3842421,
+      "required": true,
+      "__meta": {
+        "name": "Moonlight Lib",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 531761,
+      "fileID": 3914491,
+      "required": true,
+      "__meta": {
+        "name": "Balm (Forge Edition)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 551894,
+      "fileID": 4096836,
+      "required": true,
+      "__meta": {
+        "name": "Better Compatibility Checker"
+      }
+    },
+    {
+      "projectID": 560323,
+      "fileID": 3669114,
+      "required": true,
+      "__meta": {
+        "name": "Feature NBT Deadlock Be Gone",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 563928,
+      "fileID": 3957976,
+      "required": true,
+      "__meta": {
+        "name": "TerraBlender (Forge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 576589,
+      "fileID": 3751528,
+      "required": true,
+      "__meta": {
+        "name": "PolyLib",
+        "explicit": false,
+        "dependencies": [
+          419699
+        ]
+      }
+    },
+    {
+      "projectID": 622737,
+      "fileID": 4105761,
+      "required": true,
+      "__meta": {
+        "name": "FTB Backups 2",
+        "dependencies": [
+          419699,
+          576589
+        ]
+      }
+    },
+    {
+      "projectID": 703995,
+      "fileID": 4095484,
+      "required": true,
+      "__meta": {
+        "name": "bamboo fight"
+      }
+    }
+  ]
+}
